@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson9</title>
+    <link rel="stylesheet" href="lesson9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#New Products">New Products</a></li>
+            <li><a href="#Special Products">Special Products</a></li>
+            <li><a href="#Featured Products">Featured Products</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="box1">
+            <div class="section1" style="background-image: url(/1.webp); width: 100%; height: 300px;"><p class="new">New</p><p class="sale">-30%</p><p class="pre-order">Pre-order</p></div>
+            <div class="section2">
+                <h4>Lacoste</h4>
+                <p>Belted chino trousers polo</p>
+                <p id="price">$320.00</p>
+                <button style="background: white; border-radius: 100%; padding: 8px; cursor: pointer;"></button>
+                <button
+                    style="background: green; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: pink; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: black; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: grey; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: yellow; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <br>
+                <button style="padding: 6px;">XS</button>
+                <button style="padding: 6px;">S</button>
+                <button style="padding: 6px;">M</button>
+                <button style="padding: 6px;">L</button>
+                <button style="padding: 6px;">XL</button>
+                <button style="padding: 6px;">XXL</button>
+                <br>
+                <button onclick="myFunction()" style="padding: 10px 20px;">ADD TO CART</button>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-balance-scale"></i>
+                <br>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="section3" style="background-image: url(/2.webp); width: 100%; height: 300px;"><p class="hot">Hot</p></div>
+            <div class="section2">
+                <h4>Prada</h4>
+                <p>Skinny mid-rise trousers</p>
+                <p id="price">$171.00</p>
+                <button style="background: white; border-radius: 100%; padding: 8px; cursor: pointer;"></button>
+                <button
+                    style="background: green; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: pink; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: black; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: grey; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: yellow; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <br>
+                <button style="padding: 6px;">XS</button>
+                <button style="padding: 6px;">S</button>
+                <button style="padding: 6px;">M</button>
+                <button style="padding: 6px;">L</button>
+                <button style="padding: 6px;">XL</button>
+                <button style="padding: 6px;">XXL</button>
+                <br>
+                <button onclick="myFunction()" style="padding: 10px 20px;">ADD TO CART</button>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-balance-scale"></i>
+                <br>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="section4" style="background-image: url(/3.webp); width: 100%; height: 300px;"></div>
+            <div class="section2">
+                <h4>Dolce & Gabbana</h4>
+                <p>Jersey Graphic Tee Dolce</p>
+                <p id="price">$330.00</p>
+                <button style="background: white; border-radius: 100%; padding: 8px; cursor: pointer;"></button>
+                <button
+                    style="background: green; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: pink; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: black; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: grey; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: yellow; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <br>
+                <button style="padding: 6px;">XS</button>
+                <button style="padding: 6px;">S</button>
+                <button style="padding: 6px;">M</button>
+                <button style="padding: 6px;">L</button>
+                <button style="padding: 6px;">XL</button>
+                <button style="padding: 6px;">XXL</button>
+                <br>
+                <button onclick="myFunction()" style="padding: 10px 20px;">ADD TO CART</button>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-balance-scale"></i>
+                <br>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="section4" style="background-image: url(/4.webp); width: 100%; height: 300px;"><p class="sale">-25%</p></div>
+            <div class="section2">
+                <h4>Levi's</h4>
+                <p>Sweater with slogan</p>
+                <p id="price">$210.00</p>
+                <button style="background: white; border-radius: 100%; padding: 8px; cursor: pointer;"></button>
+                <button
+                    style="background: green; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: pink; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: black; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: grey; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <button
+                    style="background: yellow; border-radius: 100%; padding: 8px; border: none; cursor: pointer;"></button>
+                <br>
+                <button style="padding: 6px;">XS</button>
+                <button style="padding: 6px;">S</button>
+                <button style="padding: 6px;">M</button>
+                <button style="padding: 6px;">L</button>
+                <button style="padding: 6px;">XL</button>
+                <button style="padding: 6px;">XXL</button>
+                <br>
+                <button onclick="myFunction()" style="padding: 10px 20px;">ADD TO CART</button>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-balance-scale"></i>
+                <br>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            alert("this product is out of stock.")
+        }
+    </script>
+</body>
+
+</html>

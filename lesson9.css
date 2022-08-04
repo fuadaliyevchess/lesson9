@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 80px;
+}
+li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+}
+.box1, .box2, .box3, .box4{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 40px;
+}
+.section2{
+    height: 200px;
+}
+.section2 button{
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.section2 button:active{
+    border: 0.5px solid black;
+}
+#price{
+    margin-top: 10px;
+    font-size: 18px;
+}
+i{
+    cursor: pointer;
+}
+.checked{
+    color: gold;
+}
+button{
+    cursor: pointer;
+}
+.new{
+    background: #42A5F6;
+    color: white;
+    width: 35px;
+    padding: 3px;
+}
+.sale{
+    background: #EA4634;
+    color: white;
+    width: 40px;
+    padding: 3px;
+}
+.hot{
+    background: #ED6D3F;
+    color: white;
+    width: 30px;
+    padding: 3px;
+}
+.pre-order{
+    background: #FFDE2E;
+    color: grey;
+    width: 70px;
+    padding: 3px;
+}
